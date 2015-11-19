@@ -1,0 +1,60 @@
+.resultTitle {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+form fieldset label{
+  width: 150px;
+}
+
+ul li span {
+   width: 180px;
+}
+
+.sideLink {
+  margin-top: 93px;
+}
+
+.button {
+   width: 70px;
+   height: 25px;
+   text-align: center;
+   float: right;
+   margin-right: 76px;
+}
+
+#submit {
+   margin-right: 76px;
+}
+
+#reset {
+   margin-right: 10px;
+}
+
+#zipcode { 
+  background: #fff url('../images/status.gif') 132px 0 no-repeat; 
+  padding: 0 20px 0 2px; 
+  width: 128px; 
+}
+
+#zipcode.thinking { background-position: 132px -19px; }
+#zipcode.valid { background-position: 132px -35px; }
+#zipcode.invalid { background-position: 132px -52px; }
+
+#city { 
+  background: #fff url('../images/status.gif') 132px 0 no-repeat; 
+  padding: 0 20px 0 2px; 
+  width: 128px; 
+}
+
+#city.thinking { background-position: 132px -19px; }
+#city.valid { background-position: 132px -35px; }
+#city.invalid { background-position: 132px -52px;   }
+
+
+#login {
+   float: right;
+}
+
+

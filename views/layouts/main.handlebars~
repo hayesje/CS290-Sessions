@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+   <title>Demo Page</title>
+   <link rel="stylesheet" href="/css/utils.css" />
+   <link rel="stylesheet" href="/css/weather.css" />
+   <script src="js/weather.js"></script>
+   <script scr="js/utils.js"></script>
+</head>
+<body>
+   {{{body}}}
+</body>
+</html>

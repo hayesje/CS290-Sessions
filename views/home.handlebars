@@ -1,0 +1,30 @@
+<section id="wrapper">
+   <span id="login">Hi {{user}} ...your {{times}} visit</span></br></br>
+   <h3>Get weather information for you city of interest</h3>
+   <form id="homeform" name="homeform" autocomplete="off">
+      <fieldset>
+         <legend>Enter either Zip Code of City Name then</br>
+                 press "Enter" key or click "Submit" button</legend></br>
+         <label for "zipcode" class="title">Zip Code</label>
+         <input type="text" name="zipcode" id="zipcode"></br></br>
+         <label for="city" class="title">City Name</label>
+         <input type="text" name="city" id="city"></br></br>
+         <button type="submit" class="button" id="submit">Submit</button>
+         <button type="reset"  class="button" id="reset">Reset</input>
+      </fieldset>
+    </form>
+    <div>
+      <h3>Weather Info</h3>
+      <ul>
+         <li><span class="resultTitle">City name:</span><span class="result" id="name"></span></li></br>
+         <li><span class="resultTitle">Latitude:</span><span class="result" id="lat"></span></li></br>
+         <li><span class="resultTitle">Longitude:</span><span class="result" id="lon"></span></li></br>
+         <li><span class="resultTitle">Temperature:</span><span class="result" id="temp"></span></li></br>
+         <li><span class="resultTitle">Wind Speed:</span><span class="result" id="speed"></span></li></br>
+         <li><span class="resultTitle">Wind Direction:</span><span class="result" id="direction"></span></li></br>
+         <li><span class="resultTitle">Clouds:</span><span class="result" id="clouds"></span></li></br>
+         <li><span class="resultTitle">Sunrise:</span><span class="result" id="sunrise"></span></li></br>
+         <li><span class="resultTitle">Sunset:</span><span class="result" id="sunset"></span></li></br>
+     </ul>
+  </div>
+</section>

@@ -1,0 +1,61 @@
+body { 
+  font-family: Trebuchet MS, Verdana, Helvetica, Arial, san-serif; 
+  margin: 0; 
+  text-align: center; 
+}
+
+#wrapper { 
+  background: url('../images/Picture2.jpg') 0 25px no-repeat; 
+  color: #ddd; 
+  height: 700px; 
+  margin: 0 auto; 
+  padding: 100px 180px 0 180px; 
+  position: relative; 
+  width: 440px; 
+}
+
+.sideLink {
+  margin-top: 70px;
+  text-align: right;
+}
+
+a {
+  color: #FFFF00;
+}
+
+form {
+  text-align: center;	
+  padding: 0;
+  margin: 0;
+}
+
+form fieldset {
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+}
+
+form fieldset label{
+  float: left; 
+  margin: 0 10px; 
+  text-align: right;
+}
+
+form fieldset input { 
+   border: 2px solid #1E3755; 
+   padding: 0 2px;
+   float: left;
+   width: 146px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul li span {
+   float: left;
+   margin-right 20px;
+}
+
+

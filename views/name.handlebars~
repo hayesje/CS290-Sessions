@@ -1,0 +1,10 @@
+<section id="wrapper">
+<form id="myform" name="myform" autocomplete="off" action="/name" method="post">
+   <fieldset>
+      <legend>Please Enter Your Name</legend>
+      <label for="name" class="title">Your Name</label>
+      <input id="name" type="text" name="name"></br></br>
+      <input type="submit" class="button" id ="submit" name="New Name">
+   </fieldset>
+</form>
+</section>
